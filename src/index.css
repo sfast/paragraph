@@ -7,11 +7,11 @@
 content: attr(data-placeholder);
 color: #707684;
 font-weight: normal;
-opacity: 0;
+opacity: 0 !important;
 }
 
 .ce-paragraph[data-placeholder]:focus:empty::before{
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 .ce-paragraph p:first-of-type{
